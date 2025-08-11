@@ -1,0 +1,15 @@
+[sqlfluff]
+dialect = snowflake
+templater = dbt
+max_line_length = 120
+
+[sqlfluff:templater:dbt]
+project_dir = .
+profiles_dir = C:/Users/aliso/.dbt
+
+[sqlfluff:indentation]
+tab_space_size = 4
+indent_unit = space
+
+[sqlfluff:exclude]
+paths = dbt_packages/*

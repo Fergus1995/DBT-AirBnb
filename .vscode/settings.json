@@ -1,0 +1,49 @@
+{
+  "dbt.perspectiveTheme": "Vintage",
+
+  "yaml.customTags": [
+    "!ref",
+    "!var",
+    "!env",
+    "!include",
+    "!jinja",
+    "!source",
+    "!macro",
+    "!doc",
+    "!config"
+  ],
+
+  "sqlfluff.linter.run": "onSave",
+  "sqlfluff.dialect": "snowflake",
+  "sqlfluff.templater": "dbt",
+  "sqlfluff.config": "C:\\Users\\aliso\\dbt_course\\dbtlearn\\.sqlfluff",
+  "sqlfluff.executablePath": "C:\\Users\\aliso\\dbt_course\\venv\\Scripts\\sqlfluff.exe",
+
+  "sql-formatter.sqlfmt.config": {
+    "language": "sql",
+    "params": {
+      "placeholder": true
+    }
+  },
+
+  "[jinja-sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "[jinja-yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "dbt.enableNewLineagePanel": true
+}
