@@ -17,6 +17,7 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 asset-paths: ["assets"]
+docs-paths: ["documents"]
 
 target-path: "target" # directory where dbt will write compiled SQL files and run results
 clean-targets: # directories to be removed by `dbt clean`
